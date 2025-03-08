@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tailwind Project 1</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="">
+    <div class="mx-auto flex flex-col max-w-sm rounded-xl bg-white p-6 shadow-lg outline outline-black/5 md:flex-row">
+        <img class="size-14 shrink-0 mx-auto" src="img/message.png" alt="chitchat">
+        <div class="text-center md:text-left">
+            <div class="text-xl font-medium text-black">ChitChat</div>
+            <p class="text-gray-500 font-medium">You have a new message!</p>
+        </div>
+    </div>
+    <br><br><br>
+    <div class="flex flex-col mx-auto max-w-sm gap-2 shadow-lg p-8 sm:flex-row sm:items-center sm:gap-6 sm:py-4">
+        <img class="mx-auto block h-24 rounded-full sm:shrink-0 sm:mx-0:" src="img/erin_lindford.jpg" alt="Logo">
+        <div class="space-y-2 text-center sm:text-left">
+            <div class="space-y-0.5">
+                <p class="text-lg font-semibold text-black">Erin Lindford</p>
+                <p class="text-gray-500 font-medium">Product Engineer</p>
+            </div>
+            <button class="outline-none border-2 border-purple-150 rounded-full w-24 h-8 text-purple-600 hover:border-transparent hover:bg-purple-600 hover:text-white active:bg-purple-700 font-medium duration-500">Message</button>
+        </div>
+    </div>
+    <br><br>
+
+    <div class="flex">
+        <button class="bg-sky-500 px-6 py-2 rounded-full font-medium text-white hover:bg-sky-700 duration-500">Save changes</button>
+    
+        <button class="px-6 py-2 rounded-full font-medium bg-violet-500 text-white hover:bg-violet-600 focus:outline-2 focus:outline-offset-2 focus:outline-violet-500 active:bg-violet-700">Save changes</button>
+    </div>
+</body>
+</html>
